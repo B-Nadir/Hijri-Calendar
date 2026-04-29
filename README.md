@@ -1,63 +1,62 @@
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20Logo%20%26%20Wordmark/-/light.svg" width="400" alt="Laravel Logo"></a></p>
+
 # Mumineen Hijri Calendar
 
-A modern, responsive, and elegant Hijri-Gregorian Calendar system designed specifically for the Mumineen community. Built with **Laravel**, **Tailwind CSS**, and **Alpine.js**, this calendar combines functionality with premium aesthetics.
+## About Mumineen Hijri Calendar
 
-![Calendar Preview](https://github.com/B-Nadir/Hijri-Calendar/raw/main/preview.png)
+The Mumineen Hijri Calendar is a robust, web-based calendar application built on the [Laravel](https://laravel.com) framework. It provides a seamless interface for managing both Hijri and Gregorian dates, specialized for the unique miqaat and event tracking needs of the community.
 
-## ✨ Features
+The system leverages:
+- **Laravel 11.x** for back-end routing and logic.
+- **Tailwind CSS** for a modern, responsive design.
+- **Alpine.js** for lightweight, reactive front-end interactions.
+- **Custom Fonts** (Al-Kanz) for premium Arabic typography.
 
-- **Dual Calendar Support**: Seamlessly browse between Hijri and Gregorian dates.
-- **Miqaat Management**: Specialized event tracking with visual dot indicators and detailed modal views.
-- **Premium Typography**: Selective use of the **Al-Kanz** font for Arabic/Hijri elements, paired with clean sans-serif typography for English content.
-- **Modern UI**: Dark mode-ready, vibrant color palettes, and glassmorphism-inspired design.
-- **Fully Responsive**: Optimized for desktop and mobile viewing.
-- **Quick Navigation**: "Today" button and sequential month navigation.
+## Features
 
-## 🚀 Tech Stack
+- **Dual Navigation**: Effortlessly switch and sync between Hijri and Gregorian views.
+- **Miqaat System**: Visual dot indicators for events with comprehensive detail modals.
+- **Dynamic Header**: Real-time status display of current Hijri and Gregorian months.
+- **Responsive UI**: Optimized for all devices, from mobile phones to high-resolution desktops.
+- **Clean Architecture**: Built as a standalone Laravel project for easy deployment and integration.
 
-- **Backend**: Laravel (Blade Templating)
-- **Styling**: Tailwind CSS
-- **Interactivity**: Alpine.js
-- **Icons**: Lucide Icons
-- **Fonts**: Al-Kanz (Custom), Helvetica/Arial (System)
+## Installation
 
-## 🛠️ Installation
+### Prerequisites
 
-1. Clone the repository:
+- PHP >= 8.2
+- Composer
+- Node.js & NPM
+
+### Setup Steps
+
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/B-Nadir/Hijri-Calendar.git
    ```
 
-2. Install dependencies:
+2. **Install dependencies:**
    ```bash
    composer install
    npm install
    ```
 
-3. Configure your `.env` file and generate application key:
+3. **Environment configuration:**
    ```bash
    cp .env.example .env
    php artisan key:generate
    ```
 
-4. Run the development server:
+4. **Compile assets & serve:**
    ```bash
+   npm run dev
    php artisan serve
    ```
 
-## 📖 Usage
+## License
 
-- **Navigation**: Use the large arrow buttons in the topbar to move between months.
-- **Events**: Click on any date containing a dot to view the "Miqaat Details" modal.
-- **Center Label**: The topbar displays the current Hijri month (in Blue) and Gregorian month (in Purple) for quick reference.
+The Mumineen Hijri Calendar is open-sourced software licensed under the [MIT license](LICENSE).
 
-## 📄 License
+## Credits
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/B-Nadir/Hijri-Calendar/issues).
-
----
-Created with ❤️ by [Burhanuddin Nadir](https://github.com/B-Nadir)
+Developed with ❤️ by [Burhanuddin Nadir](https://github.com/B-Nadir).
